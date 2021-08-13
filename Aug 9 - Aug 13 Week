@@ -1,0 +1,20 @@
+Number of solutions can be found using this formula:
+
+b^2-4ac
+
+If the formula gives:
+> 0 : 2 solutions
+= 0 : 1 solution
+< 0 : 0 solutions
+
+def numSolution(a, b, c):
+ 
+    if ((b * b) - (4 * a * c)) > 0:
+        print("2 solutions")
+ 
+    elif ((b * b) - (4 * a * c)) == 0:
+        print("1 solution")
+ 
+    else:
+        print("0 solutions")
+ 
